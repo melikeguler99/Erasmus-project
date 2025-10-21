@@ -1,6 +1,6 @@
 In common short read sequencing, the DNA insert (original molecule to be sequenced) is downstream from the read primer, meaning that the 5' adapters will not appear in the sequenced read. But, if the fragment is shorter than the number of bases sequenced, one will sequence into the 3' adapter. To make it clear: In Illumina sequencing, adapter sequences will only occur at the 3' end of the read and only if the DNA insert is shorter than the number of sequencing cycles.
 
-This problem has been eliminated with ***Trim-galore!**.
+This problem has been eliminated with ***Trim-galore!***.
 
 See: https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
 
@@ -23,5 +23,6 @@ Section 14.16. Output Filtering: Splice Junctions.
 
 
 Using the 8th column, the relative read numbers of the isoforms were found.
+
 
 
