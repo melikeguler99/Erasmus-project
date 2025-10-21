@@ -1,3 +1,2 @@
 ### 📊 Junction Boxplot
-
-![Uploading junction_boxplot.png…]()
+![Junction Boxplot](./junction_boxplot.png)
