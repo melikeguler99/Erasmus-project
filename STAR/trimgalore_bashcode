@@ -1,0 +1,2 @@
+ trim_galore --fastqc /scr/k80san2/berni/Melike/C_292020_S30_R1_001.fastq.gz --cores 8
+

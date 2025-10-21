@@ -1,0 +1,26 @@
+# Create output folder if it doesn't exist
+mkdir -p ~/star_results
+ssh doof
+198901
+
+conda activate star274
+
+# Go to folder with trimmed FASTQ files
+cd ~/trimmed_fastq
+
+# Loop over all R1 trimmed FASTQ files
+for sample in *_R1_001_trimmed.fq.gz
+do
+    # Strip the _R1_001_trimmed.fq.gz part to get the sample name
+    prefix=${sample%_R1_001_trimmed.fq.gz}
+    
+    echo "Running STAR for sample: $prefix"
+    
+    # Run STAR
+    STAR --runThreadN 10 \
+         --readFilesCommand zcat \
+         --genomeDir /scr/k80san2/berni/Melike/STARidx \
+         --outFileNamePrefix ~/star_results/${prefix}_ \
+         --readFilesIn $sample
+done
+
