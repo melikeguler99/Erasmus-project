@@ -7,6 +7,6 @@ As a conclusion, we see the large highly significant switch in isoform usage acr
 
 ## Screenshots
 
-![Screenshot 1](./screenshot1.png)
-![Screenshot 2](./screenshot2.png)
+![Screenshot 1](./representation of our findings.png)
+![Screenshot 2](./ggsashimi-plot.png)
 
