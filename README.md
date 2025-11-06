@@ -5,7 +5,7 @@
 I developed a computational workflow for detecting splicing events in isoform regions in leukemia datasets.
 As a conclusion, we see the large highly significant switch in isoform usage across conditions. 
 
-## Screenshots
+## Figures
 
 ![Screenshot 1](./representation_of_ourfindings.png)
 ![Screenshot 2](./ggsashimi-plot.png)
