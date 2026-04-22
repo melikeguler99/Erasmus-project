@@ -1,10 +1,5 @@
 # Create output folder if it doesn't exist
 mkdir -p ~/star_results
-ssh doof
-198901
-
-conda activate star274
-
 # Go to folder with trimmed FASTQ files
 cd ~/trimmed_fastq
 
